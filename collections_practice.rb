@@ -44,6 +44,6 @@ def sum_array(array)
 end
 
 def add_s(array)
-  array.insert(-1, "s")
+  array.each.insert(-1, "s")
 end
     
