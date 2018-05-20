@@ -33,7 +33,7 @@ def find_a(string)
   new_array = []
   string.collect do |lettera|
   if lettera.start_with?("a")
-    array << lettera
+    new_array << lettera
   end
 end
   new_array
