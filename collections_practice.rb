@@ -30,6 +30,7 @@ end
 
 
 def find_a(string)
+  string.collect |lettera|
   
 end
 
