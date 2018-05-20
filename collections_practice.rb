@@ -31,10 +31,11 @@ end
 
 def find_a(string)
   new_array = []
-  string.collect |lettera|
+  string.collect do |lettera|
   if lettera.start_with?("a")
     array << lettera
   end
+end
   new_array
 end
 
