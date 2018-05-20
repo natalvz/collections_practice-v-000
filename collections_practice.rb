@@ -24,7 +24,7 @@ end
 
 def kesha_maker(array)
   array.each do |string|
-    string.insert "$"
+    string[2] = "$"
     new_array << string
 end
 new.array
