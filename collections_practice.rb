@@ -3,4 +3,7 @@ def sort_array_asc(i)
 end
 
 def sort_array_desc(i)
-  i.sort
+  i.sort do |a,b|
+    b <=>
+  end
+end
