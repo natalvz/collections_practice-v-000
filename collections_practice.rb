@@ -4,6 +4,6 @@ end
 
 def sort_array_desc(i)
   i.sort do |a,b|
-    b <=>
+    b <=>a
   end
 end
