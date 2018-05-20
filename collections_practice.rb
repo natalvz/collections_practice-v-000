@@ -44,6 +44,6 @@ def sum_array(array)
 end
 
 def add_s(array)
-  array.last_char << "s"
+  array.insert(-1, "s")
 end
     
