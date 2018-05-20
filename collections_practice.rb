@@ -19,5 +19,10 @@ def swap_elements(array)
     b <=> a 
   end
 end
-    
+
+def reverse_array(i)
+  i.sort do |a,b|
+    b <=>a
+  end
+end
 
