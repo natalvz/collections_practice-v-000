@@ -39,7 +39,7 @@ end
   new_array
 end
 
-def sum_array
+def sum_array(array)
   array.inject(0, :+)
 end
 
