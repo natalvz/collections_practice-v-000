@@ -24,7 +24,7 @@ def reverse_array(i)
   end
 end
 
-def kesha._maker(array)
+def kesha_maker(array)
   new.array = []
   array.each do |string|
     string.delete 3
