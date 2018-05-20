@@ -39,5 +39,7 @@ end
   new_array
 end
 
+def sum_array
+  
 
     
