@@ -30,12 +30,12 @@ end
 
 
 def find_a(string)
-  array = []
+  new_array = []
   string.collect |lettera|
   if lettera.start_with?("a")
     array << lettera
   end
-  array
+  new_array
 end
 
 
