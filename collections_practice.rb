@@ -20,7 +20,7 @@ end
 
 def reverse_array(i)
   i.sort do |a,b|
-    b <=>a
+    b <=> a
   end
 end
 
