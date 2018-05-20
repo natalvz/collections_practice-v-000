@@ -26,3 +26,11 @@ def reverse_array(i)
   end
 end
 
+def kesha._maker(array)
+  new.array = []
+  array.each do |string|
+    new.array << 
+end
+new.array
+end
+    
