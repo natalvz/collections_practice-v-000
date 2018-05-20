@@ -34,4 +34,11 @@ def kesha._maker(array)
 end
 new.array
 end
+end
+
+def find_a(string)
+  
+end
+
+
     
