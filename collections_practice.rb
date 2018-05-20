@@ -31,7 +31,7 @@ end
 
 def find_a(string)
   string.collect |lettera|
-  
+  if lettera.start_with?
 end
 
 
