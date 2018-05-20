@@ -29,8 +29,8 @@ end
 def kesha._maker(array)
   new.array = []
   array.each do |string|
-    string.delete 3
-    new.array << 
+    
+    new.array << string.gsub 3, "$"
 end
 new.array
 end
