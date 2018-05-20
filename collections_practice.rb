@@ -29,6 +29,7 @@ end
 def kesha._maker(array)
   new.array = []
   array.each do |string|
+    string.delete 3
     new.array << 
 end
 new.array
