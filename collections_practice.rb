@@ -40,6 +40,7 @@ end
 end
 
 def sum_array
-  
+  array.inject(0, :+)
+end
 
     
