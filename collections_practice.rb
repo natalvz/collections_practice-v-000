@@ -48,6 +48,7 @@ def add_s(array)
   array.each do |word|
   word.insert(-1, "s")
   new_array << word
+  new_array[new_array.index(1)] = "feet"
 end
 new_array
 end
